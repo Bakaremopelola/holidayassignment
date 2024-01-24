@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+nav{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#ui{
+    background-color: rgb(101, 6, 210);
+    color: azure;
+    width: 250px;
+    height: 500px;
+    justify-content: center;
+    align-items:  center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+#rst{
+    color: white;
+    text-transform: capitalize;
+}
+#num1{
+    background-color: rgb(45, 17, 93);
+    border-radius: 100px;
+    width: 150px;
+    height: 150px; 
+    text-align: center;
+}
+#num{
+    font-size: 70px;
+}
+#grt{
+    text-transform: capitalize;
+    color: white;
+}
+#parag1{
+    padding: 0;
+    margin: 0;
+}
+#ux{
+    background-color: inherit;
+    color: black;
+}
+#decor1,#decor2,#decor3,#decor4{
+    height: 40px;
+    width: 200px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+ }
+ #decor1{
+    color: brown;
+    background-color: lightpink;
+    border-radius: 5px;
+ }
+ #decor2{
+    color: yellow;
+    background-color: beige;
+    border-radius: 5px;
+ }
+ #decor3{
+    color: green;
+    background-color: aqua;
+    border-radius: 5px;
+ }
+ #decor4{
+    color: purple;
+    background-color: plum;
+    border-radius: 5px;
+ }
+ #sp1{
+    color: gray;
+ }
+ #sp2{
+     color: black
+ }
+ button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40px;
+ }
+ #sum{
+    margin: 20px;
+ }
+ 
+
+
+
+ @media only screen and (max-width:480px){
+    nav{
+        height: 700px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    #ui{
+        width: 100%;
+
+    }
+ }
